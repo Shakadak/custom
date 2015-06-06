@@ -3,6 +3,9 @@ export MAIL=npineau@student.42.fr
 alias mount_rust="hdiutil attach -mountpoint ~/Rust ~/img/Rust.sparseimage"
 alias unmount_rust="hdiutil eject ~/Rust"
 
+alias mount_app="hdiutil attach -mountpoint ~/Applications ~/img/Applications.sparseimage"
+alias unmount_app="hdiutil eject ~/Applications"
+
 alias mount_cabal="hdiutil attach -mountpoint ~/.cabal ~/img/cabal.sparseimage"
 alias unmount_cabal="hdiutil eject ~/.cabal"
 
