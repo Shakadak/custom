@@ -9,6 +9,9 @@ alias unmount_app="hdiutil eject ~/Applications"
 alias mount_cabal="hdiutil attach -mountpoint ~/.cabal ~/img/cabal.sparseimage"
 alias unmount_cabal="hdiutil eject ~/.cabal"
 
+alias unmount_haskell="unmount_cabal; unmount_app"
+alias mount_haskell="mount_cabal; mount_app"
+
 alias mount_brew="hdiutil attach -mountpoint ~/.brew ~/img/brew.sparseimage"
 alias unmount_brew="hdiutil eject ~/.brew"
 
