@@ -20,3 +20,18 @@ export GHC_DOT_APP="/nfs/zfs-student-4/users/2013/npineau/Applications/ghc-7.10.
 if [ -d "$GHC_DOT_APP" ]; then
 	export PATH="${HOME}/.cabal/bin:${GHC_DOT_APP}/Contents/bin:${PATH}"
 fi
+
+function path_prompt() {
+word=$PWD
+p=
+test "${word#*$HOME}" != "$word" && word=${word#$HOME} && p="~"
+apath=("${(@s:/:)word}")
+path_size=${#apath}
+suffixe=$apath[$path_size]
+apath=("${apath[@]/$suffixe}")
+for dir in $apath; do
+	p=$p/$dir[1];
+done
+p=$p/$suffixe
+print $p
+}
