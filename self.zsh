@@ -35,3 +35,6 @@ done
 p=$p/$suffixe
 print $p
 }
+
+export PROMPT='$(path_prompt)
+|> '
