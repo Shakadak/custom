@@ -15,6 +15,8 @@ alias mount_haskell="mount_cabal; mount_app"
 alias mount_brew="hdiutil attach -mountpoint ~/.brew ~/img/brew.sparseimage"
 alias unmount_brew="hdiutil eject ~/.brew"
 
+alias ocaml='rlwrap ocaml'
+
 # Add GHC 7.10.1 to the PATH, via https://ghcformacosx.github.io/
 export GHC_DOT_APP="/nfs/zfs-student-4/users/2013/npineau/Applications/ghc-7.10.1.app"
 if [ -d "$GHC_DOT_APP" ]; then
@@ -38,3 +40,5 @@ print $p
 
 export PROMPT='$(path_prompt)
 |> '
+
+export HOMEBREW_CACHE="~/Library/Caches/Homebrew"
