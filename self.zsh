@@ -37,3 +37,4 @@ export PROMPT='$(path_prompt)
 |> '
 
 export HOMEBREW_CACHE="~/Library/Caches/Homebrew"
+export EMAIL=$MAIL
