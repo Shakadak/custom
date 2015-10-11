@@ -1,7 +1,7 @@
 export MAIL=npineau@student.42.fr
 
-alias mount_rust="hdiutil attach -mountpoint ~/Rust ~/img/Rust.sparseimage"
-alias unmount_rust="hdiutil eject ~/Rust"
+alias mount_rust="hdiutil attach -mountpoint ~/Development/bin/rust ~/img/Rust.sparseimage"
+alias unmount_rust="hdiutil eject ~/Development/bin/rust"
 
 alias mount_app="hdiutil attach -mountpoint ~/Applications ~/img/Applications.sparseimage"
 alias unmount_app="hdiutil eject ~/Applications"
@@ -14,6 +14,9 @@ alias mount_haskell="mount_cabal; mount_app"
 
 alias mount_brew="hdiutil attach -mountpoint ~/.brew ~/img/brew.sparseimage"
 alias unmount_brew="hdiutil eject ~/.brew"
+
+alias mount_dev="hdiutil attach -mountpoint /Volumes/NPINEAU/dev /Volumes/NPINEAU/dev.sparseimage"
+alias unmount_dev="hdiutil eject /Volumes/NPINEAU/dev"
 
 function path_prompt() {
 word=$PWD
