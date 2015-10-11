@@ -15,8 +15,8 @@ alias mount_haskell="mount_cabal; mount_app"
 alias mount_brew="hdiutil attach -mountpoint ~/.brew ~/img/brew.sparseimage"
 alias unmount_brew="hdiutil eject ~/.brew"
 
-alias mount_dev="hdiutil attach -mountpoint /Volumes/NPINEAU/dev /Volumes/NPINEAU/dev.sparseimage"
-alias unmount_dev="hdiutil eject /Volumes/NPINEAU/dev"
+alias mount_dev="hdiutil attach -mountpoint ~/dev ~/img/dev.sparseimage"
+alias unmount_dev="hdiutil eject ~/dev"
 
 function path_prompt() {
 word=$PWD
