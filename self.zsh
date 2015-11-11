@@ -40,4 +40,4 @@ export HOMEBREW_CACHE="~/Library/Caches/Homebrew"
 export EMAIL=$MAIL
 export PATH=$HOME/scripts:$PATH
 
-alias c+='c++ -Wall -Wextra -Werror'
+alias c+='clang++ -Wall -Wextra -Werror'

@@ -6,4 +6,4 @@ export PATH=$HOME/.local/bin:$PATH
 export CABAL_HOME=$HOME/dev/.cabal
 export PATH=$CABAL_HOME/bin:$PATH
 
-alias ghct="expect <(echo log_user 0 ; echo spawn ghci ; echo send \":set +t\\n\" ; echo interact)"
+alias ghct='expect <(echo log_user 0 ; echo spawn ghci ; echo send \":set +t\\n\" ; echo interact)'
