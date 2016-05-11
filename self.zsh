@@ -36,7 +36,10 @@ print $p
 export PROMPT='$(path_prompt)
 |> '
 
-export HOMEBREW_CACHE="~/Library/Caches/Homebrew"
+#export HOMEBREW_CACHE="~/Library/Caches/Homebrew"
+export HOMEBREW_CACHE=/tmp/mycache
+export HOMEBREW_TEMP=/tmp/mytemp
+
 export EMAIL=$MAIL
 export PATH=$HOME/scripts:$PATH
 
