@@ -1,5 +1,7 @@
 export MAIL=npineau@student.42.fr
 
+alias flux="xflux64 -l 48.8566°N -g 2.3522°E -k 2400"
+
 alias mount_rust="hdiutil attach -mountpoint ~/Development/bin/rust ~/img/Rust.sparseimage"
 alias unmount_rust="hdiutil eject ~/Development/bin/rust"
 

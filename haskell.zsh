@@ -10,8 +10,9 @@ export PATH=$GHC_HOME/bin:$PATH
 # stackage install dir
 export PATH=$HOME/.local/bin:$PATH
 
-export CABAL_HOME=$HOME/dev/.cabal
+export CABAL_HOME=$HOME/.cabal
 export PATH=$CABAL_HOME/bin:$PATH
 
 alias ghct='expect <(echo log_user 0 ; echo spawn ghci ; echo send \":set +t\\n\" ; echo send \":set prompt λ\\n\" ; echo interact)'
+alias stackrepl='expect <(echo log_user 0 ; echo spawn stack ghci ; echo send \":set +t\\n\" ; echo send \":set prompt λ\\n\" ; echo interact)'
 export PATH=$HOME/.stack/programs/x86_64-osx/ghc-7.10.3/bin:$PATH
