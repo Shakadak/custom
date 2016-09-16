@@ -20,6 +20,8 @@ alias unmount_brew="hdiutil eject ~/.brew"
 alias mount_dev="hdiutil attach -mountpoint ~/dev ~/img/dev.sparseimage"
 alias unmount_dev="hdiutil eject ~/dev"
 
+alias vim73="/usr/bin/vim"
+
 function path_prompt() {
 word=$PWD
 p=
