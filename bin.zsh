@@ -3,3 +3,5 @@ export PATH=$HOME/.brew/bin:$HOME/dev/bin:$PATH
 
 alias clang="clang-3.7"
 alias clang++="clang++-3.7"
+
+alias lua="lua5.3"
