@@ -49,3 +49,6 @@ export PATH=$HOME/scripts:$PATH
 
 alias c+='clang++ -Wall -Wextra -Werror *.cpp'
 #alias love='/Applications/love.app/Contents/MacOS/love'
+
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
