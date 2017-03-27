@@ -20,7 +20,7 @@ alias unmount_brew="hdiutil eject ~/.brew"
 alias mount_dev="hdiutil attach -mountpoint ~/dev ~/img/dev.sparseimage"
 alias unmount_dev="hdiutil eject ~/dev"
 
-alias vim73="/usr/bin/vim"
+alias vim="/usr/bin/vim"
 
 function path_prompt() {
 word=$PWD
@@ -46,5 +46,9 @@ export PATH=$HOME/scripts:$PATH
 alias c+='clang++ -Wall -Wextra -Werror *.cpp'
 #alias love='/Applications/love.app/Contents/MacOS/love'
 
+export PATH=$HOME/.brew/bin:$PATH
+
 alias cbcopy='xclip -selection clipboard'
 alias cbpaste='xclip -selection clipboard -o'
+
+export PGDATA=$HOME/.brew/var/postgres
