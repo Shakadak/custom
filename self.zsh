@@ -42,6 +42,7 @@ export PROMPT='$(path_prompt)
 
 export EMAIL=$MAIL
 export PATH=$HOME/scripts:$PATH
+export PATH=$HOME/.local/script:$PATH
 
 alias c+='clang++ -Wall -Wextra -Werror *.cpp'
 #alias love='/Applications/love.app/Contents/MacOS/love'
@@ -52,3 +53,8 @@ alias cbcopy='xclip -selection clipboard'
 alias cbpaste='xclip -selection clipboard -o'
 
 export PGDATA=$HOME/.brew/var/postgres
+
+if [ -f ~/.config/exercism/exercism_completion.zsh ]; then
+    . ~/.config/exercism/exercism_completion.zsh
+fi
+
