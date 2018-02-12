@@ -4,3 +4,4 @@
 #alias clang++="clang++-3.7"
 
 alias lua="lua5.3"
+alias vim=nvim
