@@ -57,4 +57,3 @@ export PGDATA=$HOME/.brew/var/postgres
 if [ -f ~/.config/exercism/exercism_completion.zsh ]; then
     . ~/.config/exercism/exercism_completion.zsh
 fi
-
