@@ -1,0 +1,1 @@
+. /home/nathanael/.asdf/installs/ocaml/4.04.2/opam-init/init.zsh > /dev/null 2> /dev/null || true

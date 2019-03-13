@@ -1,6 +1,3 @@
-# stackage install dir
-export PATH=$HOME/.local/bin:$PATH
-
 # add symlink for this to work, eg:
 # ➜  bin pwd
 # /home/nathanael/.local/bin
