@@ -8,3 +8,8 @@ export PATH=$HOME/.local/bin/haskell:$PATH
 
 export CABAL_HOME=$HOME/.cabal
 export PATH=$CABAL_HOME/bin:$PATH
+
+# Stack auto completion
+autoload -U +X compinit && compinit
+autoload -U +X bashcompinit && bashcompinit
+eval "$(stack --bash-completion-script stack)"
