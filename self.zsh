@@ -59,3 +59,5 @@ if [ -f ~/.config/exercism/exercism_completion.zsh ]; then
 fi
 
 export CHEF_USER=npineau
+
+export PATH=~/.npm-global/bin:$PATH
