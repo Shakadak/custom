@@ -1,4 +1,4 @@
-export MAIL=npineau@student.42.fr
+export MAIL=nathanael.pineau@gmail.com
 
 alias flux="xflux64 -l 48.8566°N -g 2.3522°E -k 2400"
 
