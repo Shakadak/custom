@@ -1,5 +1,3 @@
-export MAIL=nathanael.pineau@gmail.com
-
 alias flux="xflux64 -l 48.8566°N -g 2.3522°E -k 2400"
 
 alias mount_rust="hdiutil attach -mountpoint ~/Development/bin/rust ~/img/Rust.sparseimage"
@@ -61,3 +59,8 @@ fi
 export CHEF_USER=npineau
 
 export PATH=~/.npm-global/bin:$PATH
+
+autoload -U compinit
+compinit
+
+complete -C "/home/nathanael/kbrw/climbers/infra_test/infra_test_completion" -o default infra-test
