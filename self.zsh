@@ -64,3 +64,5 @@ autoload -U compinit
 compinit
 
 complete -C "/home/nathanael/kbrw/climbers/infra_test/infra_test_completion" -o default infra-test
+
+export GPG_TTY=$(tty)
